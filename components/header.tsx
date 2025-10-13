@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import Navitems from './Navitems'
+import UserDropdown from './UserDropdown'
 
 const header = () => {
   return (
@@ -14,9 +15,7 @@ const header = () => {
             <nav className='hidden sm:block'>
                 <Navitems/>
             </nav>
-            <nav className='block sm:hidden'>
-                
-            </nav>
+            <UserDropdown/>
 
         </div>
     </header>
